@@ -1,0 +1,5 @@
+public void testMixed(){
+        int[] arr = new int[]{-28,-14,7,-5,3,9};
+        int[] res = new int[]{-28,-14,-5,3,7,9};
+        sort.basicSelectionSort(arr);
+        assert(Arrays.equals(arr,res));
