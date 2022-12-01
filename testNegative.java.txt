@@ -1,0 +1,5 @@
+public void testNegatives(){
+        int[] arr = new int[]{-18,-12,-4,-10,-6,-8,-2};
+        int[] res = new int[]{-18,-12,-10,-8,-6,-4,-2};
+        sort.basicSelectionSort(arr);
+        assert(Arrays.equals(arr,res));
