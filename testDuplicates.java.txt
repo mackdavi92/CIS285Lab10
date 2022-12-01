@@ -1,0 +1,5 @@
+public void testDuplicates(){
+        int[] arr = new int[]{-4,-30,5,15,-4,15,-45,15,3};
+        int[] res = new int[]{-45,-30,-4,-4,3,5,15,15,15};
+        sort.basicSelectionSort(arr);
+        assert(Arrays.equals(arr,res));
